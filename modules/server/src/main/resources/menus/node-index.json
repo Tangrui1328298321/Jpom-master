@@ -1,0 +1,92 @@
+[
+  {
+    "id": "welcome",
+    "title": "首页",
+    "icon_v3": "dashboard"
+  },
+  {
+    "id": "manage",
+    "title": "项目管理",
+    "icon_v3": "project",
+    "childs": [
+      {
+        "id": "manageList",
+        "title": "项目列表"
+      },
+      {
+        "id": "jdkList",
+        "title": "JDK管理",
+        "role": "system"
+      }
+    ]
+  },
+  {
+    "id": "otherM",
+    "title": "其他功能",
+    "icon_v3": "more",
+    "childs": [
+      {
+        "id": "tomcatManage",
+        "title": "Tomcat管理",
+        "role": "system"
+      },
+      {
+        "id": "script",
+        "title": "脚本模板"
+      },
+      {
+        "id": "script-log",
+        "title": "脚本执行记录"
+      }
+    ]
+  },
+  {
+    "id": "nginx",
+    "title": "nginx管理",
+    "icon_v3": "gateway",
+    "childs": [
+      {
+        "id": "nginxList",
+        "title": "nginx列表",
+        "role": "system"
+      },
+      {
+        "id": "certificate",
+        "title": "证书管理",
+        "role": "system"
+      }
+    ]
+  },
+  {
+    "id": "systemConfig",
+    "title": "系统管理",
+    "icon_v3": "setting",
+    "childs": [
+      {
+        "id": "whitelistDirectory",
+        "title": "白名单配置",
+        "role": "system"
+      },
+      {
+        "id": "cacheManage",
+        "title": "缓存管理",
+        "role": "system"
+      },
+      {
+        "id": "logManage",
+        "title": "系统日志",
+        "role": "system"
+      },
+      {
+        "id": "update",
+        "title": "在线升级",
+        "role": "sys"
+      },
+      {
+        "id": "sysConfig",
+        "title": "系统配置",
+        "role": "system"
+      }
+    ]
+  }
+]

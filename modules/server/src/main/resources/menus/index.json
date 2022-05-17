@@ -1,0 +1,190 @@
+[
+  {
+    "title": "节点管理",
+    "icon_v3": "block",
+    "id": "nodeManager",
+    "childs": [
+      {
+        "title": "节点列表",
+        "id": "nodeList"
+      },
+      {
+        "title": "节点统计",
+        "id": "nodeStat"
+      },
+      {
+        "title": "项目列表",
+        "id": "projectSearch"
+      }
+    ]
+  },
+  {
+    "title": "SSH管理",
+    "icon_v3": "code",
+    "id": "sshManager",
+    "childs": [
+      {
+        "title": "SSH列表",
+        "id": "sshList"
+      },
+      {
+        "title": "命令管理",
+        "id": "commandList"
+      },
+      {
+        "title": "命令执行记录",
+        "id": "commandLogList"
+      }
+    ]
+  },
+  {
+    "title": "脚本管理",
+    "icon_v3": "file-text",
+    "id": "scriptManager",
+    "childs": [
+      {
+        "title": "节点脚本列表",
+        "id": "scriptAllList"
+      },
+      {
+        "title": "脚本列表",
+        "id": "serverScriptList"
+      },
+      {
+        "title": "脚本执行记录",
+        "id": "serverScriptLogList"
+      }
+    ]
+  },
+  {
+    "title": "Docker管理",
+    "icon_v3": "cloud-server",
+    "id": "dockerManager",
+    "childs": [
+      {
+        "title": "Docker列表",
+        "id": "dockerList"
+      },
+      {
+        "title": "集群列表",
+        "id": "dockerSwarm"
+      }
+    ]
+  },
+  {
+    "title": "节点分发",
+    "icon_v3": "apartment",
+    "id": "outgiving",
+    "childs": [
+      {
+        "id": "outgivingList",
+        "title": "分发列表"
+      },
+      {
+        "id": "outgivingLog",
+        "title": "分发日志"
+      },
+      {
+        "id": "outgivingWhitelistDirectory",
+        "title": "白名单配置"
+      }
+    ]
+  },
+  {
+    "title": "在线构建",
+    "icon_v3": "build",
+    "id": "build",
+    "childs": [
+      {
+        "id": "repository",
+        "title": "仓库信息"
+      },
+      {
+        "id": "buildList",
+        "title": "构建列表"
+      },
+      {
+        "id": "buildHistory",
+        "title": "构建历史"
+      }
+    ]
+  },
+  {
+    "title": "监控管理",
+    "icon_v3": "monitor",
+    "id": "monitor",
+    "childs": [
+      {
+        "id": "monitorList",
+        "title": "监控列表"
+      },
+      {
+        "id": "monitorLog",
+        "title": "监控日志"
+      },
+      {
+        "id": "userOptLog",
+        "title": "操作监控"
+      },
+      {
+        "id": "monitorConfigEmail",
+        "title": "邮箱配置",
+        "role": "system"
+      }
+    ]
+  },
+  {
+    "title": "用户管理",
+    "icon_v3": "user",
+    "id": "user",
+    "childs": [
+      {
+        "id": "userList",
+        "title": "用户列表",
+        "role": "system"
+      },
+      {
+        "id": "user_log",
+        "title": "操作日志",
+        "role": "system"
+      }
+    ]
+  },
+  {
+    "title": "系统管理",
+    "icon_v3": "setting",
+    "id": "setting",
+    "childs": [
+      {
+        "id": "workspace",
+        "title": "工作空间",
+        "role": "system"
+      },
+      {
+        "id": "cacheManage",
+        "title": "缓存管理",
+        "role": "system"
+      },
+      {
+        "id": "logManage",
+        "title": "系统日志",
+        "role": "system"
+      },
+      {
+        "id": "update",
+        "title": "在线升级",
+        "role": "sys"
+      },
+      {
+        "id": "sysConfig",
+        "title": "系统配置",
+        "role": "system"
+      },
+      {
+        "id": "backup",
+        "title": "数据库备份",
+        "role": "system"
+      }
+    ]
+  }
+]
